@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise2 here
+sudo vim /etc/hosts and dd the last line
