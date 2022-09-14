@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise5-server1 here
+#Once the ssh keys and the authorized_keys were added, it worked out of the box
