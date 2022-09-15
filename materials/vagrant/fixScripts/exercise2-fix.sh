@@ -1,3 +1,2 @@
 #!/bin/bash
-#vim /etc/hosts and dd the last line
-#sudo sed $d /etc/hosts 
+awk '!/ascii-art/ {print $0 } ' /etc/hosts >hostsNew && sudo mv hostsNew /etc/hosts
