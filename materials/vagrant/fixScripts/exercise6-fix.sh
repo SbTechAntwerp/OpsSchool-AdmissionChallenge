@@ -10,5 +10,5 @@ esac
 
 argsArray=( "$@" )
 
-scp -r -v ${argsArray[@]::${#argsArray[@]}-1} $copyToServer:${argsArray[-1]} |& awk '/sent/{print $4}'
-
+scp -r -v ${argsArray[@]::${#argsArray[@]}-1} $copyToServer:${argsArray[-1]} |& awk '/sent/{print $5}'
+5
