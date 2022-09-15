@@ -1,2 +1,4 @@
 #!/bin/bash
-#add fix to exercise4-server1 here
+#sudo /bin/bash 'echo "192.168.60.11 server2" >>/etc/hosts'
+#ssh-keygen 
+#add public key to the authorised keys in server 2

@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise3 here
+Modified /etc/apache2/sites-available/000-default.conf Require all to "granted". 

@@ -1,2 +1,3 @@
 #!/bin/bash
-#add fix to exercise2 here
+#vim /etc/hosts and dd the last line
+#sudo sed $d /etc/hosts 
