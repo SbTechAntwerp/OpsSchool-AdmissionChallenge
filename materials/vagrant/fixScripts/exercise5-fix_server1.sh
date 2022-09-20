@@ -1,2 +1,3 @@
 #!/bin/bash
-#Once the ssh keys and the authorized_keys were added, it worked out of the box
+cat /vagrant/.vagrant/machines/server2/virtualbox/private_key >> /home/vagrant/.ssh/authorized_keys
+
